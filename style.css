@@ -1,7 +1,6 @@
-/* Reset and Center Alignment */
+
 * {
-    margin: 0;
-    padding: 0;
+   
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -14,7 +13,6 @@ body {
     background-color: #0f172a;
 }
 
-/* Calculator Container */
 .calculator {
     background-color: #1e293b;
     padding: 25px;
@@ -23,7 +21,7 @@ body {
     width: 340px;
 }
 
-/* Display Screen */
+
 #display {
     width: 100%;
     height: 70px;
@@ -38,14 +36,13 @@ body {
     padding: 0 15px;
 }
 
-/* Button Layout Grid */
+
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
 }
 
-/* Individual Keys styling */
 .btn {
     height: 60px;
     border: none;
@@ -67,7 +64,7 @@ body {
     transform: scale(0.95);
 }
 
-/* Special Button Styling */
+
 .operator {
     color: #38bdf8;
     background-color: #1e293b;
